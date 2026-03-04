@@ -41,7 +41,7 @@ menu = st.sidebar.selectbox("Choose a section:", [
 if menu == "Data Overview":
     # 1. Load Dataset
     st.header("1. Load Dataset")
-    dataset_path = "/Users/mac/DATA-SANI/CCIT/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+    dataset_path = "/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 
     try:
         df = pd.read_csv(dataset_path)
